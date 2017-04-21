@@ -8,6 +8,7 @@ public class duplicatenumber {
 		for(int i = 1; i < numbers.length; i++) {
 		    if(numbers[i] == numbers[i - 1]) {
 		        System.out.println("Duplicate: " + numbers[i]);
+		        System.out.println("Hello");
 		    }
 		}
 
